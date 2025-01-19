@@ -1,0 +1,24 @@
+    - name: "Dr. Jacqueline E. Rice"
+      role: "Faculty"
+      image: "/assets/images/faculty/Dr_Rice.jpg"
+      description: "Sociolinguistics, programming languages, software quality."
+      link: "https://www.cs.uleth.ca/~rice/"
+
+    - name: "Dr. Wendy Osborn"
+      role: "Faculty"
+      image: "/assets/images/faculty/Dr_Wendy_Osborn.jpg"
+      description: "Spatial data, query optimization, and mobile information systems."
+      link: "https://www.cs.uleth.ca/~osborn/research.html"
+
+    - name: "Dr. John Anvik"
+      role: "Faculty"
+      image: "/assets/images/faculty/Sir_John_Anvik.jpg"
+      description: "Software engineering, Software maintenance, bug report triage."
+      link: "https://www.ulethbridge.ca/directory/person/john.anvik"
+      
+    - name: "Dr. Sidney Shapiro"
+      role: "Faculty"
+      image: "/assets/images/faculty/Dr_Sidney.jpg"
+      description: "Business decision-making, AI, LLM evaluation"
+      link: "https://www.sidneyshapiro.com/"
+    
