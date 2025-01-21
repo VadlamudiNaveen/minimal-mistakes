@@ -47,15 +47,3 @@ layout: archive
 
 
 
-## Alumni 
-<div class="almuni-container">
-{% for person in site.data.almuni %}
-  <div class="alumni-member">
-    <img src="{{ person.image }}" alt="{{ person.name }}" class="almuni-image">
-    <h2 class="alumni-name">{{ person.name }}</h2>
-    <p class="almuni-role">{{ person.role }}</p>
-    <p class="almuni-description">{{ person.description }}</p>
-    <a href="{{ person.link }}" class="almuni-link">More info</a>
-  </div>
-{% endfor %}
-</div>

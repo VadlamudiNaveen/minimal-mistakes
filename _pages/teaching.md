@@ -9,28 +9,28 @@ permalink: /teaching/
 
 <h2>Teaching</h2>
 
-{% assign publications_by_year = site.data.publication %}
+{% assign teachings_by_year = site.data.teaching %}
 
-{% for year in publications_by_year %}
+{% for year in teachings_by_year %}
   <h2>{{ year[0] }}</h2>
-  <div class="publications-grid">
-    {% for publication in year[1] %}
-      <div class="publication-tile">
-        <div class="publication-image">
-          {% if publication.image %}
-            <img src="{{ publication.image }}" alt="{{ publication.title }}">
+  <div class="teachinggrid">
+    {% for teaching in year[1] %}
+      <div class="teachingtile">
+        <div class="teachingimage">
+          {% if teaching.image %}
+            <img src="{{ teaching.image }}" alt="{{ teaching.title }}">
           {% endif %}
         </div>
-        <div class="publication-content">
-          <h3>{{ publication.title }}</h3>
-          <p><strong>Author(s):</strong> {{ publication.author }}</p>
-          {% if publication.journal %}
-            <p><strong>Journal:</strong> {{ publication.journal }}</p>
+        <div class="teachingcontent">
+          <h3>{{ teaching.title }}</h3>
+          <p><strong>Author(s):</strong> {{ teaching.author }}</p>
+          {% if teaching.journal %}
+            <p><strong>Journal:</strong> {{ teaching.journal }}</p>
           {% endif %}
-          {% if publication.conference %}
-            <p><strong>Conference:</strong> {{ publication.conference }}</p>
+          {% if teaching.conference %}
+            <p><strong>Conference:</strong> {{ teaching.conference }}</p>
           {% endif %}
-          <a href="{{ publication.link }}" class="publication-link">Read more</a>
+          <a href="{{ teaching.link }}" class="teachinglink">Read more</a>
         </div>
       </div>
     {% endfor %}

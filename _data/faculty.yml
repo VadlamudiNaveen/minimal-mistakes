@@ -1,12 +1,12 @@
     - name: "Dr. Jacqueline E. Rice"
       role: "Faculty"
-      image: "/assets/images/faculty/Dr_Rice.jpg"
+      image: "/assets/images/faculty/Dr_Rice.jpeg"
       description: "Sociolinguistics, programming languages, software quality."
       link: "https://www.cs.uleth.ca/~rice/"
 
     - name: "Dr. Wendy Osborn"
       role: "Faculty"
-      image: "/assets/images/faculty/Dr_Wendy_Osborn.jpg"
+      image: "/assets/images/faculty/dr_wendy.jpg"
       description: "Spatial data, query optimization, and mobile information systems."
       link: "https://www.cs.uleth.ca/~osborn/research.html"
 
@@ -18,7 +18,7 @@
       
     - name: "Dr. Sidney Shapiro"
       role: "Faculty"
-      image: "/assets/images/faculty/Dr_Sidney.jpg"
+      image: "/assets/images/faculty/dr_sidney.jpeg"
       description: "Business decision-making, AI, LLM evaluation"
       link: "https://www.sidneyshapiro.com/"
     

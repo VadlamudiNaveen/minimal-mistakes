@@ -1,0 +1,23 @@
+2025:
+  - title: "Introduction to Databases - CPSC 3660"
+    instructor: "Dr. Wendy Osborn"
+    location: "Andys Hall"
+    link: "http://link-to-course1.com"
+    image: "/assets/images/teaching/astronomy.jpg"
+  
+  - title: "Advanced software engineering- CPSC 3660"
+    instructor: "Dr. John Anvik"
+    location: "Science commons"
+    link: "http://link-to-course1.com"
+    image: "/assets/images/teaching/astronomy.jpg"
+    
+2024:
+  - title: "Exploring the Universe: A Comprehensive Study"
+    author: "Dr. Jane Doe, Dr. John Smith"
+    journal: "Astrophysics Journal"
+    link: "http://link-to-publication1.com"
+    image: "/assets/images/papers/research.jpg"
+
+
+
+
