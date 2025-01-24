@@ -1,5 +1,5 @@
 ---
-title: Publications
+
 collection: publication
 layout: archive
 permalink: /publications/

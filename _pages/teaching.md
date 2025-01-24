@@ -7,34 +7,21 @@ permalink: /teaching/
 
 
 
-<h2>Teaching</h2>
-
 {% assign teachings_by_year = site.data.teaching %}
 
 {% for year in teachings_by_year %}
   <h2>{{ year[0] }}</h2>
-  <div class="teachinggrid">
+  <div class="teaching-grid">
     {% for teaching in year[1] %}
-      <div class="teachingtile">
-        <div class="teachingimage">
-          {% if teaching.image %}
-            <img src="{{ teaching.image }}" alt="{{ teaching.title }}">
-          {% endif %}
-        </div>
-        <div class="teachingcontent">
+      <div class="teaching-tile">
+        <div class="teaching-content">
           <h3>{{ teaching.title }}</h3>
-          <p><strong>Author(s):</strong> {{ teaching.author }}</p>
-          {% if teaching.journal %}
-            <p><strong>Journal:</strong> {{ teaching.journal }}</p>
-          {% endif %}
-          {% if teaching.conference %}
-            <p><strong>Conference:</strong> {{ teaching.conference }}</p>
-          {% endif %}
-          <a href="{{ teaching.link }}" class="teachinglink">Read more</a>
+          <p><strong>Instructor:</strong> {{ teaching.instructor }}</p>
+          <p><strong>Location:</strong> {{ teaching.location }}</p>
+          <p><strong>Description:</strong> {{ teaching.description }}</p>
+          <a href="{{ teaching.link }}">More Info</a>
         </div>
       </div>
     {% endfor %}
   </div>
 {% endfor %}
-
-

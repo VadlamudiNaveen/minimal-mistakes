@@ -1,41 +1,12 @@
 .teaching-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .teaching-tile {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: calc(33.333% - 20px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .teaching-image img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .teaching-content {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .teaching-content.no-image {
-    padding-top: 15px;
-  }
-  
-  .teaching-content h3 {
-    margin-top: 0;
-    font-size: 1.25em;
-  }
-  
-  .teaching-content p {
-    margin: 10px 0;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: flex-start; // Align tiles to the start
+}
+
+.teaching-content h3 {
+  margin-top: 0;
+  font-size: 1em;
+}

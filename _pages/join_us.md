@@ -1,6 +1,6 @@
 ---
 collection: join-us
-layout: archive
+layout: single
 permalink: /join-us/
 ---
 
@@ -23,8 +23,7 @@ Whether you're a student, researcher, or industry professional, we offer diverse
 ## How to Join  
 If you’re ready to innovate, explore, and contribute to the future, we’d love to hear from you!  
 
-- **Students and Researchers**: Submit your CV, cover letter, and a brief research proposal to **isedam@uelth.ca**.  
-- **General Inquiries**: For any other questions, feel free to contact us at **isedam@uelth.ca**.  
+- **Students and Researchers**: Submit your CV, cover letter, and a brief research proposal to **isedamlab@gmail.com**.  Also, for any other questions, feel free to contact us using the same email address.  
 
 ---
 
